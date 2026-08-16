@@ -1,0 +1,6 @@
+nuevo evento idaMiembro {
+    enviar mensaje {
+        canal "1031289466708561931"
+        contenido miembro.id mas " (" mas miembro.id mas ") ha abandonado la comunidad."
+    }
+}

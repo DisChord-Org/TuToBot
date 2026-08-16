@@ -1,0 +1,7 @@
+importar { ent } desde "lib:ent"
+
+encender bot {
+    token ent.TOKEN
+    prefijo [ "/", "!" ]
+    intenciones [ "Servidores", "ContenidoDelMensaje", "MensajesDelServidor", "MiembrosDelServidor" ]
+}

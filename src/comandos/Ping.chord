@@ -1,0 +1,7 @@
+nuevo comando Ping {
+    descripcion "¡Prueba la latencia del bot!";
+
+    enviar mensaje {
+        contenido "¡Pong" mas cliente.ping mas "ms!"
+    }
+}

@@ -1,0 +1,6 @@
+nuevo evento entradaMiembro {
+    enviar mensaje {
+        canal "1031289466708561931"
+        contenido "¡<@" mas miembro.id mas "> se ha dejado caer en el servidor! ╰(*°▽°*)╯"
+    }
+}
